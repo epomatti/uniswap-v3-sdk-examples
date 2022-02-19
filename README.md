@@ -8,8 +8,12 @@ Uniswap V3 SDK guided examples.
 npm install
 ```
 
-Create the Ethereum node (Infura, Alchemy, etc).
+Create a **MAINNET** Ethereum node (Infura, Alchemy, etc).
 
 Create and add the config to the `.env` file.
 
+Run it:
 
+```bash
+npx ts-node src/uniswap.ts
+```
