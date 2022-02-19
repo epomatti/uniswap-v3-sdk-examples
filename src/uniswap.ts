@@ -86,6 +86,7 @@ async function getPoolState() {
   return PoolState;
 }
 
+
 async function main() {
   const [immutables, state] = await Promise.all([
     getPoolImmutables(),
@@ -105,6 +106,9 @@ async function main() {
     state.tick
   );
   console.log(poolExample);
+
+  const token0Price = poolExample.token0Price;
+  const token1Price = poolExample.token1Price;
 
   const amountIn = 1500;
 
