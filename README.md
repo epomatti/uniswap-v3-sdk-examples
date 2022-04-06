@@ -1,19 +1,13 @@
-# Uniswap V3 SDK Examples
+# Uniswap V3 SDK Implementation <img src=".docs/logo.png" width=30/>
 
-Uniswap V3 SDK guided examples.
+Uniswap V3 SDK [guided examples](https://docs.uniswap.org/sdk/introduction).
 
-## Setup
-
-```bash
-npm install
-```
-
-Create a **MAINNET** Ethereum node (Infura, Alchemy, etc).
-
-Create and add the config to the `.env` file.
-
-Run it:
+Create a **MAINNET** Ethereum node (Infura, Alchemy, etc). Add the config to a `.env` file.
 
 ```bash
+# install
+yarn install
+
+# run it
 npx ts-node src/uniswap.ts
 ```
